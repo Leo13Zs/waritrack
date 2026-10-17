@@ -1,0 +1,12 @@
+{
+  "name": "capacitor-sms-gateway",
+  "version": "1.0.0",
+  "description": "Transfert natif des SMS entrants vers un webhook (moteur android_income_sms_gateway_webhook, MIT).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["android/src/main/", "android/build.gradle", "dist/"],
+  "scripts": { "build": "tsc" },
+  "peerDependencies": { "@capacitor/core": ">=5.0.0" },
+  "devDependencies": { "@capacitor/core": "^6.0.0", "typescript": "^5.4.0" },
+  "capacitor": { "android": { "src": "android" } }
+}
